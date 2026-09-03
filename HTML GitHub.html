@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hush Luxe Stays</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B1D1F;
+    --parchment:#EDE7DA;
+    --brass:#A9834F;
+    --stone:#8B8E88;
+    --hairline:#3A3C3A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    color:var(--parchment);
+    font-family:'Inter',sans-serif;
+    display:flex;
+    justify-content:center;
+    min-height:100vh;
+  }
+  main{
+    width:100%;
+    max-width:420px;
+    padding:56px 28px 40px;
+  }
+  .mark{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:28px;
+    letter-spacing:0.01em;
+    margin:0 0 6px;
+  }
+  .tagline{
+    color:var(--stone);
+    font-size:14px;
+    line-height:1.5;
+    margin:0 0 40px;
+    max-width:32ch;
+  }
+  .directory{
+    border-top:1px solid var(--hairline);
+  }
+  .stay{
+    display:block;
+    text-decoration:none;
+    color:var(--parchment);
+    padding:18px 0;
+    border-bottom:1px solid var(--hairline);
+    transition:opacity 0.15s ease;
+  }
+  .stay:hover{opacity:0.72;}
+  .stay-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:16px;
+  }
+  .stay-name{
+    font-family:'Fraunces',serif;
+    font-size:19px;
+    font-weight:400;
+  }
+  .stay-loc{
+    font-size:12px;
+    color:var(--stone);
+    white-space:nowrap;
+  }
+  .stay-note{
+    font-size:13px;
+    color:var(--stone);
+    margin-top:4px;
+    line-height:1.4;
+  }
+  .plaque-num{
+    display:inline-block;
+    font-size:11px;
+    color:var(--brass);
+    letter-spacing:0.06em;
+    margin-right:10px;
+  }
+  footer{
+    margin-top:40px;
+    font-size:11px;
+    color:var(--stone);
+    line-height:1.6;
+  }
+  footer a{color:var(--brass); text-decoration:none;}
+</style>
+</head>
+<body>
+<main>
+  <p class="mark">Hush Luxe Stays</p>
+  <p class="tagline">Quiet luxury, still reachable. A running list of hotels worth the detour.</p>
+
+  <nav class="directory" id="directory">
+    <!-- Rows are inserted by script; static fallback below -->
+    <a class="stay" href="#" data-slug="example">
+      <div class="stay-row">
+        <span><span class="plaque-num">01</span><span class="stay-name">Placeholder Hotel</span></span>
+        <span class="stay-loc">City, Country</span>
+      </div>
+      <p class="stay-note">Booking link will populate here once connected.</p>
+    </a>
+  </nav>
+
+  <footer>
+    As an affiliate, purchases made through these links may earn a commission at no extra cost to you.<br>
+    <a href="mailto:hello@understatedstays.example">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
