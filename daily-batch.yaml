@@ -1,0 +1,36 @@
+name: Daily Hotel Batch
+
+on:
+  schedule:
+    # Runs at 12:00 UTC every day (~9am Argentina time, ~8am/9am US Eastern depending on DST)
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}  # lets you also trigger it manually from the Actions tab
+
+jobs:
+  generate-batch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate today's batch
+        env:
+          TRAVELPAYOUTS_MARKER: ${{ secrets.TRAVELPAYOUTS_MARKER }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: python generate_batch.py
+
+      - name: Commit new batch to repo
+        run: |
+          git config user.name "hush-luxe-bot"
+          git config user.email "actions@github.com"
+          git add review_batches/
+          git diff --staged --quiet || git commit -m "Daily batch: $(date +'%Y-%m-%d')"
+          git push
