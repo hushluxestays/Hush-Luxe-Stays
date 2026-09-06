@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Casa Cook Ibiza",
+    "city": "Ibiza",
+    "country": "Spain",
+    "photo_url": "https://images.unsplash.com/photo-1723813134110-ce365d5c3a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyMzEzfDB8MXxzZWFyY2h8MXx8SWJpemElMjBob3RlbHxlbnwwfHx8fDE3ODg2OTY5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photo_credit": "Photo by Pascal Vugts on Unsplash (https://unsplash.com/@devugts)",
+    "affiliate_link": "https://search.hotellook.com/?marker=772858&destination=Ibiza",
+    "caption": "Casa Cook Ibiza \u2014 Ibiza, Spain\n\nAdults-only, breeze-block architecture, boho-quiet not boho-loud.\n\nFrom $190/night. Link in bio.\n\n#hushluxestays #ibiza #boutiquehotel",
+    "approved": false
+  },
+  {
+    "name": "Azulik Tulum",
+    "city": "Tulum",
+    "country": "Mexico",
+    "photo_url": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyMzEzfDB8MXxzZWFyY2h8MXx8VHVsdW0lMjBob3RlbHxlbnwwfHx8fDE3ODg2OTY5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photo_credit": "Photo by Roberto Nickson on Unsplash (https://unsplash.com/@rpnickson)",
+    "affiliate_link": "https://search.hotellook.com/?marker=772858&destination=Tulum",
+    "caption": "Azulik Tulum \u2014 Tulum, Mexico\n\nHandbuilt treehouse suites, no electricity in some rooms, on purpose.\n\nFrom $310/night. Link in bio.\n\n#hushluxestays #tulum #boutiquehotel",
+    "approved": false
+  },
+  {
+    "name": "Amangiri",
+    "city": "Canyon Point, Utah",
+    "country": "USA",
+    "photo_url": "https://images.unsplash.com/photo-1606870786729-25c35ec5edc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyMzEzfDB8MXxzZWFyY2h8MXx8Q2FueW9uJTIwUG9pbnQlMkMlMjBVdGFoJTIwaG90ZWx8ZW58MHx8fHwxNzg4Njk2OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photo_credit": "Photo by Robert Penaloza on Unsplash (https://unsplash.com/@robertography)",
+    "affiliate_link": "https://search.hotellook.com/?marker=772858&destination=Canyon%20Point,%20Utah",
+    "caption": "Amangiri \u2014 Canyon Point, Utah, USA\n\nBuilt into the mesa itself. The desert does the decorating.\n\nFrom $2500/night. Link in bio.\n\n#hushluxestays #canyonpointutah #boutiquehotel",
+    "approved": false
+  },
+  {
+    "name": "San Giorgio Mykonos",
+    "city": "Mykonos",
+    "country": "Greece",
+    "photo_url": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyMzEzfDB8MXxzZWFyY2h8MXx8TXlrb25vcyUyMGhvdGVsfGVufDB8fHx8MTc4ODY5NjkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photo_credit": "Photo by Johnny Africa on Unsplash (https://unsplash.com/@johnnyafrica)",
+    "affiliate_link": "https://search.hotellook.com/?marker=772858&destination=Mykonos",
+    "caption": "San Giorgio Mykonos \u2014 Mykonos, Greece\n\nThe un-serious side of Mykonos. Hammocks over infinity pools.\n\nFrom $220/night. Link in bio.\n\n#hushluxestays #mykonos #boutiquehotel",
+    "approved": false
+  },
+  {
+    "name": "Habitas Tulum",
+    "city": "Tulum",
+    "country": "Mexico",
+    "photo_url": "https://images.unsplash.com/photo-1520483601560-389dff434fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUyMzEzfDB8MXxzZWFyY2h8MXx8VHVsdW0lMjBob3RlbHxlbnwwfHx8fDE3ODg2OTY5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photo_credit": "Photo by Roberto Nickson on Unsplash (https://unsplash.com/@rpnickson)",
+    "affiliate_link": "https://search.hotellook.com/?marker=772858&destination=Tulum",
+    "caption": "Habitas Tulum \u2014 Tulum, Mexico\n\nOff-grid tents that still have better wifi than your office.\n\nFrom $160/night. Link in bio.\n\n#hushluxestays #tulum #boutiquehotel",
+    "approved": false
+  }
+]
